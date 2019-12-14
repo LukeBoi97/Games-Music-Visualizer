@@ -179,7 +179,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &194083186
 PrefabInstance:
@@ -266,7 +266,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _band: 5
   _startScale: 1
-  _scaleMultiplier: 10
+  _scaleMultiplier: 50
+  _useBuffer: 1
 --- !u!1 &202947679
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,7 +297,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &202947681
 MonoBehaviour:
@@ -397,7 +398,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _band: 6
   _startScale: 1
-  _scaleMultiplier: 10
+  _scaleMultiplier: 50
+  _useBuffer: 1
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,7 +567,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _band: 1
   _startScale: 1
-  _scaleMultiplier: 10
+  _scaleMultiplier: 50
+  _useBuffer: 1
 --- !u!1001 &849195229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -651,7 +654,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _band: 4
   _startScale: 1
-  _scaleMultiplier: 10
+  _scaleMultiplier: 50
+  _useBuffer: 1
 --- !u!1001 &1300476030
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -737,7 +741,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _band: 3
   _startScale: 1
-  _scaleMultiplier: 10
+  _scaleMultiplier: 50
+  _useBuffer: 1
 --- !u!1001 &1418011928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -823,7 +828,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _band: 7
   _startScale: 1
-  _scaleMultiplier: 10
+  _scaleMultiplier: 50
+  _useBuffer: 1
 --- !u!1001 &1521172807
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -865,7 +871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 442806, guid: bf5fd76b9bc704017b77e2ae0b9b1536, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 442806, guid: bf5fd76b9bc704017b77e2ae0b9b1536, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -909,7 +915,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _band: 0
   _startScale: 1
-  _scaleMultiplier: 10
+  _scaleMultiplier: 50
+  _useBuffer: 1
 --- !u!1001 &1929240362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -995,7 +1002,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _band: 2
   _startScale: 1
-  _scaleMultiplier: 10
+  _scaleMultiplier: 50
+  _useBuffer: 1
 --- !u!1 &1935743978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1122,7 +1130,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1935743981
 MonoBehaviour:
