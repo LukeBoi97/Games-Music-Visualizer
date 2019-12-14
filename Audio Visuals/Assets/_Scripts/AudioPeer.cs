@@ -8,6 +8,8 @@ public class AudioPeer : MonoBehaviour
     AudioSource _audioSource;
     public static float[] _samples = new float[512];
     public static float[] _freqBand = new float[8];
+    public static float[] _bandBuffer = new float[8];
+    float[] _bufferDecrease = new float[8];
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,7 @@ public class AudioPeer : MonoBehaviour
     {
         GetSpectrumAudioSource();
         MakeFrequencyBands();
+        BandBuffer();
     }
 
 
@@ -27,6 +30,11 @@ public class AudioPeer : MonoBehaviour
     {
         //will make 20000 samples into 512
         _audioSource.GetSpectrumData(_samples, 0, FFTWindow.Blackman);
+    }
+
+    void BandBuffer()
+    {
+
     }
 
 
